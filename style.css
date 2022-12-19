@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    background-color: grey;
+    width: 10vw;
+    height: 250px;
+    height: 100vw;
+    transition: transform 0.3s ease-in;
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.main {
+    /*background-color: rgb(210, 220, 220);*/
+    width: 90vw;
+}
+
+.sidebar nav {
+    width: 72vw;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /*background-color: rgba(249, 134, 12, 0.952);*/
+    height: 52vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    width: 240px;
+}
+
+.hello {
+    font-size: 75px;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 45px;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.buttons {
+    margin-top: auto;
+
+}
+
+.buttons button {
+    color: white;
+    background-color: rgb(16, 127, 245);
+    border-radius: 7px;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: rgb(16, 127, 245);
+}
+
+.cls3 {
+    padding-left: 20px;
+    padding: 30px;
+    line-height: 40px;
+}
+
+.form {
+    text-align: left;
+    padding-left: 32px;
+}
+
+.clds {
+
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.mb-3 {
+    width: 16vw;
+    border-radius: solid black 5px;
+    padding: 3px;
+    line-height: 35px;
+}
+
+emailhelp {
+    font-size: 10px;
+    color: darkgray;
+}
+
+.form button {
+    background-color: rgb(106, 102, 102);
+    color: rgb(251, 247, 253);
+}
+
+.form button:hover {
+    background-color: rgba(11, 11, 247, 0.937);
+    color: rgb(7, 7, 7);
+}
+
+.form button {
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: 6px;
+    width: 100px;
+}
+
+.skill{
+    width: 25vw;
+    background-color: red;
+    height: 6px;
+    border: solid black;
+}
+.skillitem{
+    display: flex;
+}
+.t1{
+    
+    margin-left: 20px;
+    margin-top: 19px;
+}
+.t2{
+    margin-left: 59px;
+    margin-top: 19px;
+}
+.t3{
+    margin-left: 24px;
+    margin-top: 19px;
+}
+.t4{
+    margin-left: 50px;
+    margin-top: 19px;
+}
+.t5{
+    margin-left: 10px;
+    margin-top: 19px;
+}
+.hambur{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+    margin-left: 189px;
+}
+.btn{
+    color: white;
+}
+.iphone a{
+    color: white;
+    text-decoration: none;
+}
+.skillscontainer{
+    margin-left: 70px;
+    line-height: 50px;
+    font-size: large;
+}
+.mou{
+    margin-left: 70px;
+    line-height: 30px;
+}
+.mou2{
+    margin-left: 70px;
+}
+.t22{
+    background-color: yellow;
+    height: 6px;
+    width: 16vw;
+}
+.t11{
+    background-color: yellow;
+    height: 6px;
+    width: 19vw;
+}
+.t33{
+    background-color: yellow;
+    height: 6px;
+    width: 22vw;
+}
+.t44{
+    background-color: yellow;
+    height: 6px;
+    width: 22vw;
+}
+.t55{
+    background-color: yellow;
+    height: 6px;
+    width: 10vw;
+}
+.intro{
+    line-height: 40px;
+}
+.p{
+    line-height: 30px;
+}
+.var{
+    font-size: 22px;
+}
+.projects{
+   margin-top: 20px;
+    margin-left: 60px;
+    font-size: large;
+    line-height: 25px;
+}
+.lad{
+    font-size: 40px;
+   
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
